@@ -1,0 +1,58 @@
+}
+.flex{
+	display: flex;
+	justify-content: space-between;
+}
+
+.for{
+	text-decoration: none;
+	font-family: Poppins;
+	font-size: 15px;
+	line-height: 15px;
+	font-style: normal;
+	font-weight: 250;
+	color: #4D4D4D;
+}
+.reg{
+	background: #000000;
+	border-radius: 6px;
+	width: 100%;
+	height: 57px;
+	color: white;
+	font-weight: 450;
+	font-size: 16px;
+	line-height: 24px;
+	border: none;
+}
+.myjob {
+	text-align: center;
+	font-family: Poppins;
+	font-weight: 250;
+	font-size: 14px;
+	line-height: 24px;
+	font-style: normal;
+	color: #7D7D7D;
+}
+.myjob a{
+	text-decoration: none;
+	color: black;
+	font-weight: 700;
+}
+
+@media all and (max-width: 300px){
+	.img{
+		display: none;
+	}
+
+	.form{
+		display: block;
+	}
+
+	.form{
+		width: 100%;
+		margin-top: 50px;}
+	input[type="text"], input[type="password"]{
+		width: 100%;
+	}
+
+}
